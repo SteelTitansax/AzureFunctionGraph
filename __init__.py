@@ -75,9 +75,11 @@ def httpAzureGraph(req: func.HttpRequest) -> func.HttpResponse:
     #initial user data
     #get all users
 
-    userId = ''
-    displayName = ''
-    mailAddress = ''
+    userId =[]
+    displayName =[]
+    mailAddress =[]
+    
+
     print(user_response_data)
 
 
